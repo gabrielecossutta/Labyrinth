@@ -72,5 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Large file exclusion
-/ArtifactDB/
+VR/Library/ArtifactDB/
 VR/Library/PackageCache/com.unity.burst@*/.Runtime/libburst-llvm-*.dylib

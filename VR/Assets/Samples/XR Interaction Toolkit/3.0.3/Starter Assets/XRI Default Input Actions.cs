@@ -2842,9 +2842,31 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": """",
+                    ""id"": ""5c7dac7f-1509-47bc-85b3-e14038123ae4"",
+                    ""path"": ""<Keyboard>/#(W)"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Front"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""09fad144-cf44-417e-8355-a689a143c7b9"",
                     ""path"": ""<Keyboard>/#(S)"",
                     ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Back"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b2abc7bf-a9eb-458a-ba2e-3f64b062e3bc"",
+                    ""path"": ""<Keyboard>/#(S)"",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Back"",
@@ -2864,9 +2886,31 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": """",
+                    ""id"": ""e6eba450-aee0-4c6b-9bfe-aee004e598dd"",
+                    ""path"": ""<Keyboard>/#(A)"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""410b75df-c5dc-4dde-843c-cfcfce200915"",
                     ""path"": ""<Keyboard>/#(D)"",
                     ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7ce26474-e513-4577-b243-aadc3056e7c1"",
+                    ""path"": ""<Keyboard>/#(D)"",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Right"",

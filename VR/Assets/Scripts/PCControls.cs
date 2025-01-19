@@ -10,12 +10,14 @@ public class PCControls : MonoBehaviour
 {
     // Start is called before the first frame update
     private XRIDefaultInputActions controls;
+    private GameObject Labirinth;
     void Start()
     {
-        controls.PC.Front.performed += ctx => MoveLabirinth();
-        controls.PC.Back.performed += ctx => MoveLabirinth();
-        controls.PC.Left.performed += ctx => MoveLabirinth();
-        controls.PC.Right.performed += ctx => MoveLabirinth();
+        Labirinth = this.gameObject;
+        controls.PC.Front.performed += ctx => RotateFront();
+        controls.PC.Back.performed += ctx => RotateBack();
+        controls.PC.Left.performed += ctx => RotateLeft();
+        controls.PC.Right.performed += ctx => RotateRight();
     }
     private void Awake() //
     {
@@ -35,7 +37,41 @@ public class PCControls : MonoBehaviour
         controls.PC.Disable();
     }
 
-    private void MoveLabirinth()  //labirinth mechanic
+    private void RotateFront()  //labirinth mechanic
     {
+        if(NormalizeAngle(Labirinth.transform.eulerAngles.x) < 10)
+        {
+            Labirinth.transform.rotation = Quaternion.Euler(Labirinth.transform.eulerAngles + new Vector3(1f, 0, 0));
+        }
+    }
+    private void RotateBack()  //labirinth mechanic
+    {
+        if (NormalizeAngle(Labirinth.transform.eulerAngles.x) > -10)
+        {
+            Labirinth.transform.rotation = Quaternion.Euler(Labirinth.transform.eulerAngles + new Vector3(-1f, 0, 0));
+        }
+    }
+    private void RotateLeft()  //labirinth mechanic
+    {
+            if (NormalizeAngle(Labirinth.transform.eulerAngles.z) < 10)
+            {
+                Labirinth.transform.rotation = Quaternion.Euler(Labirinth.transform.eulerAngles + new Vector3(0, 0, 1));
+            }
+    }
+    private void RotateRight()  //labirinth mechanic
+    {
+                if (NormalizeAngle(Labirinth.transform.eulerAngles.z) > -10)
+                {
+                    Labirinth.transform.rotation = Quaternion.Euler(Labirinth.transform.eulerAngles + new Vector3(0, 0, -1));
+                }
+    }
+
+    private float NormalizeAngle(float angle) // Convert the 0 to 360 rotation to -180 180
+    {
+        if (angle > 180f)
+        {
+            angle -= 360f;
+        }
+        return angle;
     }
 }

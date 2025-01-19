@@ -74,7 +74,7 @@ crashlytics-build.properties
 # Large file exclusion
 VR/Library/ArtifactDB
 VR/Library/PackageCache/com.unity.burst@*/.Runtime/libburst-llvm-*.dylib
-VR/Library/Bee/Android\Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
+VR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
 VR/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
 VR/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
 VR/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so

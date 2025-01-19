@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity.template.vr"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="32"
+9-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="35" />
+10-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+19-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-79
+19-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:26-76
+20
+21    <uses-feature
+21-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-12:35
+22        android:name="android.hardware.vulkan.version"
+22-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-55
+23        android:required="true" />
+23-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-32
+24    <uses-feature
+24-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-52
+26        android:required="false" />
+26-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
+27    <uses-feature
+27-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-63
+29        android:required="false" />
+29-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
+30    <uses-feature
+30-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-72
+32        android:required="false" />
+32-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
+33    <uses-feature
+33-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-10:31
+34        android:name="android.hardware.vr.headtracking"
+34-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-56
+35        android:required="true"
+35-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-32
+36        android:version="1" />
+36-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-28
+37
+38    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41
+42    <application
+42-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+43        android:extractNativeLibs="true"
+43-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:18-50
+44        android:icon="@mipmap/app_icon"
+44-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+45        android:label="@string/app_name" >
+45-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+46        <meta-data
+46-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-26:33
+47            android:name="unity.splash-mode"
+47-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-45
+48            android:value="0" />
+48-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-30
+49        <meta-data
+49-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-29:36
+50            android:name="unity.splash-enable"
+50-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-47
+51            android:value="True" />
+51-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-33
+52        <meta-data
+52-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32:36
+53            android:name="unity.launch-fullscreen"
+53-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-51
+54            android:value="True" />
+54-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-33
+55        <meta-data
+55-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:36
+56            android:name="unity.render-outside-safearea"
+56-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-57
+57            android:value="True" />
+57-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-33
+58        <meta-data
+58-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:50
+59            android:name="notch.config"
+59-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-40
+60            android:value="portrait|landscape" />
+60-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-47
+61        <meta-data
+61-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+62            android:name="unity.auto-report-fully-drawn"
+62-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-57
+63            android:value="true" />
+63-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+64
+65        <activity
+65-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-66:20
+66            android:name="com.unity3d.player.UnityPlayerActivity"
+66-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-66
+67            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+67-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-194
+68            android:exported="true"
+68-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-36
+69            android:hardwareAccelerated="false"
+69-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-48
+70            android:launchMode="singleTask"
+70-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-44
+71            android:resizeableActivity="false"
+71-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-47
+72            android:screenOrientation="fullUser"
+72-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-49
+73            android:theme="@style/UnityThemeSelector" >
+73-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-54
+74            <intent-filter>
+74-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-58:29
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:17-77
+75-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:27-74
+76
+77                <action android:name="android.intent.action.MAIN" />
+77-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:17-69
+77-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:25-66
+78
+79                <category android:name="com.oculus.intent.category.VR" />
+79-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:17-74
+79-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:27-71
+80            </intent-filter>
+81
+82            <meta-data
+82-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-62:40
+83                android:name="unityplayer.UnityActivity"
+83-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-57
+84                android:value="true" />
+84-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-37
+85            <meta-data
+85-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:13-65:40
+86                android:name="notch_support"
+86-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-45
+87                android:value="true" />
+87-->[:unityLibrary] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:17-37
+88            <meta-data
+88-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:40
+89                android:name="com.oculus.vr.focusaware"
+89-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-56
+90                android:value="true" />
+90-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-37
+91        </activity>
+92
+93        <meta-data
+93-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:59
+94            android:name="com.oculus.supportedDevices"
+94-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-55
+95            android:value="quest|quest2|cambria|eureka" />
+95-->[:unityLibrary:xrmanifest.androidlib] E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-56
+96    </application>
+97
+98</manifest>

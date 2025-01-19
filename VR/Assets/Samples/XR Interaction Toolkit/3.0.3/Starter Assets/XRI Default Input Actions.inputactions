@@ -2763,6 +2763,94 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "PC",
+            "id": "7db3ab48-649c-4c11-8575-27e781818b58",
+            "actions": [
+                {
+                    "name": "Front",
+                    "type": "Button",
+                    "id": "39e60174-11d1-4ce4-8e8d-fa1d5387ae0f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "b459d3e7-a6a3-4ec5-a548-4560864f9521",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "7b5aca0e-5d4b-40cb-8aa0-a63b6745557a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "f4e544b5-8696-4a4f-8c36-a52355cb14be",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5df6d3d6-160c-430b-8ac0-9c3c1a07fa68",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Front",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09fad144-cf44-417e-8355-a689a143c7b9",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a9acaf4-91b5-4208-99fa-d695deb0baf2",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "410b75df-c5dc-4dde-843c-cfcfce200915",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

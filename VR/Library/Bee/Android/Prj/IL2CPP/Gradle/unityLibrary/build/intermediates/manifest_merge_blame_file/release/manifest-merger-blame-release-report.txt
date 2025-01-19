@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="32" />
+6-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+7
+8    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+8-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-77
+8-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:24-74
+9
+10    <uses-feature
+10-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-90
+11        android:name="android.hardware.vulkan.version"
+11-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:17-63
+12        android:required="true" />
+12-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:64-87
+13    <uses-feature
+13-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-88
+14        android:name="android.hardware.touchscreen"
+14-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-60
+15        android:required="false" />
+15-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:61-85
+16    <uses-feature
+16-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-99
+17        android:name="android.hardware.touchscreen.multitouch"
+17-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-71
+18        android:required="false" />
+18-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:72-96
+19    <uses-feature
+19-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-108
+20        android:name="android.hardware.touchscreen.multitouch.distinct"
+20-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-80
+21        android:required="false" />
+21-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:81-105
+22
+23    <application android:extractNativeLibs="true" >
+23-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-24:17
+23-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-48
+24        <meta-data
+24-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+25            android:name="unity.splash-mode"
+25-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+26            android:value="0" />
+26-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+27        <meta-data
+27-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+28            android:name="unity.splash-enable"
+28-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+29            android:value="True" />
+29-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+30        <meta-data
+30-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+31            android:name="unity.launch-fullscreen"
+31-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+32            android:value="True" />
+32-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+33        <meta-data
+33-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+34            android:name="unity.render-outside-safearea"
+34-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-60
+35            android:value="True" />
+35-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:61-81
+36        <meta-data
+36-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+37            android:name="notch.config"
+37-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+38            android:value="portrait|landscape" />
+38-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+39        <meta-data
+39-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+40            android:name="unity.auto-report-fully-drawn"
+40-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+41            android:value="true" />
+41-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+42
+43        <activity
+43-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-23:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+45-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-361
+46            android:exported="true"
+46-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:433-456
+47            android:hardwareAccelerated="false"
+47-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:397-432
+48            android:launchMode="singleTask"
+48-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+49            android:resizeableActivity="false"
+49-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:362-396
+50            android:screenOrientation="fullUser"
+50-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+51            android:theme="@style/UnityThemeSelector" >
+51-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
+52            <intent-filter>
+52-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-20:23
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+53-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+54
+55                <action android:name="android.intent.action.MAIN" />
+55-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-61
+55-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-58
+56
+57                <category android:name="com.oculus.intent.category.VR" />
+57-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-66
+57-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:19-63
+58            </intent-filter>
+59
+60            <meta-data
+60-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+61                android:name="unityplayer.UnityActivity"
+61-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-58
+62                android:value="true" />
+62-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:59-79
+63            <meta-data
+63-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-70
+64                android:name="notch_support"
+64-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-46
+65                android:value="true" />
+65-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:47-67
+66        </activity>
+67    </application>
+68
+69</manifest>

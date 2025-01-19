@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

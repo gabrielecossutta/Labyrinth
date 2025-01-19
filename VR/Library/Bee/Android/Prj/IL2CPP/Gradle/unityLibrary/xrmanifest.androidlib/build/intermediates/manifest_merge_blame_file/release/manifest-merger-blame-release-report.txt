@@ -1,0 +1,38 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.XR.Manifest" >
+4
+5    <uses-sdk android:minSdkVersion="1" />
+5-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+6
+7    <uses-feature
+7-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:3-111
+8        android:name="android.hardware.vr.headtracking"
+8-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:17-64
+9        android:required="true"
+9-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:65-88
+10        android:version="1" />
+10-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:89-108
+11
+12    <application>
+12-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-8:17
+13        <activity android:name="com.unity3d.player.UnityPlayerActivity" >
+13-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-6:16
+13-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
+14            <meta-data
+14-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:7-81
+15                android:name="com.oculus.vr.focusaware"
+15-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:18-57
+16                android:value="true" />
+16-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:58-78
+17        </activity>
+18
+19        <meta-data
+19-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:5-105
+20            android:name="com.oculus.supportedDevices"
+20-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:16-58
+21            android:value="quest|quest2|cambria|eureka" />
+21-->E:\GITHUB\ProgettiUnity\Labyrinth\VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:59-102
+22    </application>
+23
+24</manifest>

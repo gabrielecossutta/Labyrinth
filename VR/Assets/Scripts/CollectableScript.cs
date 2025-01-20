@@ -21,6 +21,7 @@ public class CollectableScript : MonoBehaviour
 
     private void OnTriggerEnter()
     {
+        HUDScript.Instance.ObjectCollected();
         this.gameObject.SetActive(false);
     }
 }

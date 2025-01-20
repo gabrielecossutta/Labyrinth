@@ -99,7 +99,6 @@ public class PCControls : MonoBehaviour
             {
                 MoveRight();
             }
-
             if (Front)
             {
                 RotateFront();

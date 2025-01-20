@@ -2765,7 +2765,7 @@
             ]
         },
         {
-            "name": "PC",
+            "name": "Wasd",
             "id": "7db3ab48-649c-4c11-8575-27e781818b58",
             "actions": [
                 {
@@ -2819,31 +2819,9 @@
                 },
                 {
                     "name": "",
-                    "id": "5c7dac7f-1509-47bc-85b3-e14038123ae4",
-                    "path": "<Keyboard>/#(W)",
-                    "interactions": "Press(behavior=1)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Front",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "09fad144-cf44-417e-8355-a689a143c7b9",
                     "path": "<Keyboard>/#(S)",
                     "interactions": "Press",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Back",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b2abc7bf-a9eb-458a-ba2e-3f64b062e3bc",
-                    "path": "<Keyboard>/#(S)",
-                    "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": "",
                     "action": "Back",
@@ -2863,17 +2841,6 @@
                 },
                 {
                     "name": "",
-                    "id": "e6eba450-aee0-4c6b-9bfe-aee004e598dd",
-                    "path": "<Keyboard>/#(A)",
-                    "interactions": "Press(behavior=1)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Left",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "410b75df-c5dc-4dde-843c-cfcfce200915",
                     "path": "<Keyboard>/#(D)",
                     "interactions": "Press",
@@ -2882,12 +2849,89 @@
                     "action": "Right",
                     "isComposite": false,
                     "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Arrow",
+            "id": "1255162d-3c3f-499f-809b-5d1979cb06a9",
+            "actions": [
+                {
+                    "name": "Front",
+                    "type": "Button",
+                    "id": "92e94317-cda6-4e1e-9e1b-7955fead026a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "bb00b5db-da75-42f9-a937-fe1efaa9bad3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "1ee65c49-d8e4-452c-aade-153d9a171e1b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "4235fc22-39ba-4c02-ac96-265f0d803fca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bd6e2134-3983-469b-98b0-fe931f6e1c17",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Front",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "7ce26474-e513-4577-b243-aadc3056e7c1",
-                    "path": "<Keyboard>/#(D)",
-                    "interactions": "Press(behavior=1)",
+                    "id": "a26e8d82-33fa-46e7-903f-0da4142e7f35",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85900c13-dc53-471e-955c-ab3bb9ae4390",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "011f1110-4576-4b6a-9374-0166f6d84d19",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "Right",

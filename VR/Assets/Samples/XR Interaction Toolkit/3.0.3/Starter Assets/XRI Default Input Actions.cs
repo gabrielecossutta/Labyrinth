@@ -2788,7 +2788,7 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
             ]
         },
         {
-            ""name"": ""PC"",
+            ""name"": ""Wasd"",
             ""id"": ""7db3ab48-649c-4c11-8575-27e781818b58"",
             ""actions"": [
                 {
@@ -2842,31 +2842,9 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": """",
-                    ""id"": ""5c7dac7f-1509-47bc-85b3-e14038123ae4"",
-                    ""path"": ""<Keyboard>/#(W)"",
-                    ""interactions"": ""Press(behavior=1)"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Front"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""09fad144-cf44-417e-8355-a689a143c7b9"",
                     ""path"": ""<Keyboard>/#(S)"",
                     ""interactions"": ""Press"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Back"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b2abc7bf-a9eb-458a-ba2e-3f64b062e3bc"",
-                    ""path"": ""<Keyboard>/#(S)"",
-                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Back"",
@@ -2886,17 +2864,6 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": """",
-                    ""id"": ""e6eba450-aee0-4c6b-9bfe-aee004e598dd"",
-                    ""path"": ""<Keyboard>/#(A)"",
-                    ""interactions"": ""Press(behavior=1)"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Left"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""410b75df-c5dc-4dde-843c-cfcfce200915"",
                     ""path"": ""<Keyboard>/#(D)"",
                     ""interactions"": ""Press"",
@@ -2905,12 +2872,89 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                     ""action"": ""Right"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Arrow"",
+            ""id"": ""1255162d-3c3f-499f-809b-5d1979cb06a9"",
+            ""actions"": [
+                {
+                    ""name"": ""Front"",
+                    ""type"": ""Button"",
+                    ""id"": ""92e94317-cda6-4e1e-9e1b-7955fead026a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Back"",
+                    ""type"": ""Button"",
+                    ""id"": ""bb00b5db-da75-42f9-a937-fe1efaa9bad3"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""1ee65c49-d8e4-452c-aade-153d9a171e1b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""4235fc22-39ba-4c02-ac96-265f0d803fca"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": ""Press"",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""bd6e2134-3983-469b-98b0-fe931f6e1c17"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Front"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""7ce26474-e513-4577-b243-aadc3056e7c1"",
-                    ""path"": ""<Keyboard>/#(D)"",
-                    ""interactions"": ""Press(behavior=1)"",
+                    ""id"": ""a26e8d82-33fa-46e7-903f-0da4142e7f35"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Back"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""85900c13-dc53-471e-955c-ab3bb9ae4390"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""011f1110-4576-4b6a-9374-0166f6d84d19"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Right"",
@@ -3030,12 +3074,18 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
         m_TouchscreenGestures_TwistDeltaRotation = m_TouchscreenGestures.FindAction("Twist Delta Rotation", throwIfNotFound: true);
         m_TouchscreenGestures_ScreenTouchCount = m_TouchscreenGestures.FindAction("Screen Touch Count", throwIfNotFound: true);
         m_TouchscreenGestures_SpawnObject = m_TouchscreenGestures.FindAction("Spawn Object", throwIfNotFound: true);
-        // PC
-        m_PC = asset.FindActionMap("PC", throwIfNotFound: true);
-        m_PC_Front = m_PC.FindAction("Front", throwIfNotFound: true);
-        m_PC_Back = m_PC.FindAction("Back", throwIfNotFound: true);
-        m_PC_Left = m_PC.FindAction("Left", throwIfNotFound: true);
-        m_PC_Right = m_PC.FindAction("Right", throwIfNotFound: true);
+        // Wasd
+        m_Wasd = asset.FindActionMap("Wasd", throwIfNotFound: true);
+        m_Wasd_Front = m_Wasd.FindAction("Front", throwIfNotFound: true);
+        m_Wasd_Back = m_Wasd.FindAction("Back", throwIfNotFound: true);
+        m_Wasd_Left = m_Wasd.FindAction("Left", throwIfNotFound: true);
+        m_Wasd_Right = m_Wasd.FindAction("Right", throwIfNotFound: true);
+        // Arrow
+        m_Arrow = asset.FindActionMap("Arrow", throwIfNotFound: true);
+        m_Arrow_Front = m_Arrow.FindAction("Front", throwIfNotFound: true);
+        m_Arrow_Back = m_Arrow.FindAction("Back", throwIfNotFound: true);
+        m_Arrow_Left = m_Arrow.FindAction("Left", throwIfNotFound: true);
+        m_Arrow_Right = m_Arrow.FindAction("Right", throwIfNotFound: true);
     }
 
     ~@XRIDefaultInputActions()
@@ -3049,7 +3099,8 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
         Debug.Assert(!m_XRIRightLocomotion.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.XRIRightLocomotion.Disable() has not been called.");
         Debug.Assert(!m_XRIUI.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.XRIUI.Disable() has not been called.");
         Debug.Assert(!m_TouchscreenGestures.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.TouchscreenGestures.Disable() has not been called.");
-        Debug.Assert(!m_PC.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.PC.Disable() has not been called.");
+        Debug.Assert(!m_Wasd.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.Wasd.Disable() has not been called.");
+        Debug.Assert(!m_Arrow.enabled, "This will cause a leak and performance issues, XRIDefaultInputActions.Arrow.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -4170,30 +4221,30 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
     }
     public TouchscreenGesturesActions @TouchscreenGestures => new TouchscreenGesturesActions(this);
 
-    // PC
-    private readonly InputActionMap m_PC;
-    private List<IPCActions> m_PCActionsCallbackInterfaces = new List<IPCActions>();
-    private readonly InputAction m_PC_Front;
-    private readonly InputAction m_PC_Back;
-    private readonly InputAction m_PC_Left;
-    private readonly InputAction m_PC_Right;
-    public struct PCActions
+    // Wasd
+    private readonly InputActionMap m_Wasd;
+    private List<IWasdActions> m_WasdActionsCallbackInterfaces = new List<IWasdActions>();
+    private readonly InputAction m_Wasd_Front;
+    private readonly InputAction m_Wasd_Back;
+    private readonly InputAction m_Wasd_Left;
+    private readonly InputAction m_Wasd_Right;
+    public struct WasdActions
     {
         private @XRIDefaultInputActions m_Wrapper;
-        public PCActions(@XRIDefaultInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Front => m_Wrapper.m_PC_Front;
-        public InputAction @Back => m_Wrapper.m_PC_Back;
-        public InputAction @Left => m_Wrapper.m_PC_Left;
-        public InputAction @Right => m_Wrapper.m_PC_Right;
-        public InputActionMap Get() { return m_Wrapper.m_PC; }
+        public WasdActions(@XRIDefaultInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Front => m_Wrapper.m_Wasd_Front;
+        public InputAction @Back => m_Wrapper.m_Wasd_Back;
+        public InputAction @Left => m_Wrapper.m_Wasd_Left;
+        public InputAction @Right => m_Wrapper.m_Wasd_Right;
+        public InputActionMap Get() { return m_Wrapper.m_Wasd; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PCActions set) { return set.Get(); }
-        public void AddCallbacks(IPCActions instance)
+        public static implicit operator InputActionMap(WasdActions set) { return set.Get(); }
+        public void AddCallbacks(IWasdActions instance)
         {
-            if (instance == null || m_Wrapper.m_PCActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_PCActionsCallbackInterfaces.Add(instance);
+            if (instance == null || m_Wrapper.m_WasdActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_WasdActionsCallbackInterfaces.Add(instance);
             @Front.started += instance.OnFront;
             @Front.performed += instance.OnFront;
             @Front.canceled += instance.OnFront;
@@ -4208,7 +4259,7 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
             @Right.canceled += instance.OnRight;
         }
 
-        private void UnregisterCallbacks(IPCActions instance)
+        private void UnregisterCallbacks(IWasdActions instance)
         {
             @Front.started -= instance.OnFront;
             @Front.performed -= instance.OnFront;
@@ -4224,21 +4275,91 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
             @Right.canceled -= instance.OnRight;
         }
 
-        public void RemoveCallbacks(IPCActions instance)
+        public void RemoveCallbacks(IWasdActions instance)
         {
-            if (m_Wrapper.m_PCActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_WasdActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
-        public void SetCallbacks(IPCActions instance)
+        public void SetCallbacks(IWasdActions instance)
         {
-            foreach (var item in m_Wrapper.m_PCActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_WasdActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_PCActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_WasdActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
-    public PCActions @PC => new PCActions(this);
+    public WasdActions @Wasd => new WasdActions(this);
+
+    // Arrow
+    private readonly InputActionMap m_Arrow;
+    private List<IArrowActions> m_ArrowActionsCallbackInterfaces = new List<IArrowActions>();
+    private readonly InputAction m_Arrow_Front;
+    private readonly InputAction m_Arrow_Back;
+    private readonly InputAction m_Arrow_Left;
+    private readonly InputAction m_Arrow_Right;
+    public struct ArrowActions
+    {
+        private @XRIDefaultInputActions m_Wrapper;
+        public ArrowActions(@XRIDefaultInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Front => m_Wrapper.m_Arrow_Front;
+        public InputAction @Back => m_Wrapper.m_Arrow_Back;
+        public InputAction @Left => m_Wrapper.m_Arrow_Left;
+        public InputAction @Right => m_Wrapper.m_Arrow_Right;
+        public InputActionMap Get() { return m_Wrapper.m_Arrow; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(ArrowActions set) { return set.Get(); }
+        public void AddCallbacks(IArrowActions instance)
+        {
+            if (instance == null || m_Wrapper.m_ArrowActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_ArrowActionsCallbackInterfaces.Add(instance);
+            @Front.started += instance.OnFront;
+            @Front.performed += instance.OnFront;
+            @Front.canceled += instance.OnFront;
+            @Back.started += instance.OnBack;
+            @Back.performed += instance.OnBack;
+            @Back.canceled += instance.OnBack;
+            @Left.started += instance.OnLeft;
+            @Left.performed += instance.OnLeft;
+            @Left.canceled += instance.OnLeft;
+            @Right.started += instance.OnRight;
+            @Right.performed += instance.OnRight;
+            @Right.canceled += instance.OnRight;
+        }
+
+        private void UnregisterCallbacks(IArrowActions instance)
+        {
+            @Front.started -= instance.OnFront;
+            @Front.performed -= instance.OnFront;
+            @Front.canceled -= instance.OnFront;
+            @Back.started -= instance.OnBack;
+            @Back.performed -= instance.OnBack;
+            @Back.canceled -= instance.OnBack;
+            @Left.started -= instance.OnLeft;
+            @Left.performed -= instance.OnLeft;
+            @Left.canceled -= instance.OnLeft;
+            @Right.started -= instance.OnRight;
+            @Right.performed -= instance.OnRight;
+            @Right.canceled -= instance.OnRight;
+        }
+
+        public void RemoveCallbacks(IArrowActions instance)
+        {
+            if (m_Wrapper.m_ArrowActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IArrowActions instance)
+        {
+            foreach (var item in m_Wrapper.m_ArrowActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_ArrowActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public ArrowActions @Arrow => new ArrowActions(this);
     public interface IXRIHeadActions
     {
         void OnPosition(InputAction.CallbackContext context);
@@ -4356,7 +4477,14 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
         void OnScreenTouchCount(InputAction.CallbackContext context);
         void OnSpawnObject(InputAction.CallbackContext context);
     }
-    public interface IPCActions
+    public interface IWasdActions
+    {
+        void OnFront(InputAction.CallbackContext context);
+        void OnBack(InputAction.CallbackContext context);
+        void OnLeft(InputAction.CallbackContext context);
+        void OnRight(InputAction.CallbackContext context);
+    }
+    public interface IArrowActions
     {
         void OnFront(InputAction.CallbackContext context);
         void OnBack(InputAction.CallbackContext context);

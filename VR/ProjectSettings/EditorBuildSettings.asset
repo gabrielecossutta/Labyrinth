@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRGameplay.unity
     guid: 0800220612b12f34db8e6537cfa3db9e
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: dac912ac68079174a99e4d282bf1beb6
+  - enabled: 1
+    path: Assets/Scenes/PCGameplay.unity
+    guid: 466501603a5108147ad489db14b52fed
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

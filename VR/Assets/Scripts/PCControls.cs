@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEditor.ShaderGraph;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using static UnityEditorInternal.ReorderableList;
 
@@ -21,24 +22,21 @@ public class PCControls : MonoBehaviour
     private bool isMovingLeft = false;
     private bool Right = false;
     private bool isMovingRight = false;
-    private bool ArrowInput = false;
+    private bool WASDInput;
 
     float timer = 0.03f;
     void Start()
     {
         Labirinth = this.gameObject;
-
-        if(ArrowInput)
-        {
-            ArrowControl();
-        }
-        else 
+        WASDInput = MenuScript.Instance.Control;
+        if (WASDInput)
         {
             WasdControl();
         }
-
-
-
+        else 
+        {
+            ArrowControl();
+        }
     }
 
     // Register a callback for al the actions in Arrow input map

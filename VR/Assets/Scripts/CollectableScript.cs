@@ -21,6 +21,7 @@ public class CollectableScript : MonoBehaviour
 
     private void OnTriggerEnter()
     {
+        AudioScript.Instance.PlayerEffect(AudioScript.Effects.Pickup);
         HUDScript.Instance.ObjectCollected();
         this.gameObject.SetActive(false);
     }

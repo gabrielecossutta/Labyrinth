@@ -15,7 +15,11 @@ public class HUDScript : Singleton<HUDScript>
     private float Score;
     private int Collectibles;
     private float Timer;
-
+    private bool GamePaused;
+    [SerializeField]
+    private GameObject WinCanvas;
+    [SerializeField]
+    private GameObject LoseCanvas;
     void Start()
     {
         TimerText = GetComponent<TMP_Text>();
@@ -27,7 +31,7 @@ public class HUDScript : Singleton<HUDScript>
     // Update is called once per frame
     void Update()
     {
-        UpdateTimer();
+         UpdateTimer();
     }
 
     private void UpdateTimer()
@@ -36,6 +40,11 @@ public class HUDScript : Singleton<HUDScript>
         int Second = Mathf.FloorToInt(Timer % 60);
         TimerText.SetText($"Timer Left: {Minutes}:{Second:00}");
         Timer -= Time.deltaTime;
+        if(Timer<0)
+        {
+            AudioScript.Instance.StopMusic();
+            Lose();
+        }
     }
 
     public void ObjectCollected()
@@ -54,5 +63,19 @@ public class HUDScript : Singleton<HUDScript>
     {
         Collectibles += 1;
         Collectibles_Text.SetText($"Collectables: {Collectibles:00}/20");
+        if (Collectibles == 20)
+        {
+            Win();
+        }
+    }
+
+    private void Win()
+    {
+        WinCanvas.SetActive(true);
+    }
+
+    private void Lose()
+    {
+        LoseCanvas.SetActive(true);
     }
 }

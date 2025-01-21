@@ -11,12 +11,13 @@ public class MenuScript : Singleton<MenuScript>
     private Toggle toggle;
     [SerializeField]
     private Slider slider;
-    private float Volume;
+    private float volume;
+    public float Volume { get { return volume; } }
     private bool WASDControl;
     public bool Control { get { return WASDControl; } }
     void Start()
     {
-        Volume = slider.value;
+        volume = slider.value;
         WASDControl = toggle.isOn;
         toggle.onValueChanged.AddListener(ChangeControls);
         slider.onValueChanged.AddListener(ChangeVolume);
@@ -29,7 +30,8 @@ public class MenuScript : Singleton<MenuScript>
 
     private void ChangeVolume(float value)
     {
-        Volume=value;
+        volume = value;
+        AudioScript.Instance.ChangeVolume();
     }
 
     // Update is called once per frame
@@ -46,5 +48,13 @@ public class MenuScript : Singleton<MenuScript>
     public void ExitGame()
     {
         Application.Quit();
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
     }
 }

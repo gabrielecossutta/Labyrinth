@@ -12,6 +12,7 @@ public class SpawnCollectable : MonoBehaviour
     private bool CollectablePossitionated = false;
     void Start()
     {
+        AudioScript.Instance.StartMusic();
         for (int i = 0; i < CollectablesArray.Length; i++)
         {
             do {

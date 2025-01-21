@@ -81,37 +81,43 @@ public class PCControls : MonoBehaviour
         timer -= Time.deltaTime;
         if(timer<0)
         {
-            if(isMovingFront)
+            if(WASDInput)
             {
-                MoveFront();
+                if (isMovingFront)
+                {
+                    MoveFront();
+                }
+                if (isMovingBack)
+                {
+                    MoveBack();
+                }
+                if (isMovingLeft)
+                {
+                    MoveLeft();
+                }
+                if (isMovingRight)
+                {
+                    MoveRight();
+                }
             }
-            if(isMovingBack)
+            else
             {
-                MoveBack();
-            }
-            if(isMovingLeft)
-            {
-                MoveLeft();
-            }
-            if(isMovingRight)
-            {
-                MoveRight();
-            }
-            if (Front)
-            {
-                RotateFront();
-            }
-            if (Back)
-            {
-                RotateBack();
-            }
-            if (Left)
-            {
-                RotateLeft();
-            }
-            if (Right)
-            {
-                RotateRight();
+                if (Front)
+                {
+                    RotateFront();
+                }
+                if (Back)
+                {
+                    RotateBack();
+                }
+                if (Left)
+                {
+                    RotateLeft();
+                }
+                if (Right)
+                {
+                    RotateRight();
+                }
             }
             timer = 0.03f;
         }

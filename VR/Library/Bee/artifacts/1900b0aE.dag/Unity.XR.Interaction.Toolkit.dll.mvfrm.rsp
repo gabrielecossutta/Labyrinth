@@ -1,9 +1,12 @@
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_F30DFA20C0DD1968.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_FD2EC87C14EBE081.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_E8EFDB1B8D5C174E.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARFoundation.ref.dll_ECD427E0715F1390.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.ref.dll_875816C5D1041D31.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.ref.dll_3CA2B461938B5BFC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.ref.dll_404BC0C35449934F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.ref.dll_18763C29B6421920.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.Simulation.ref.dll_FF5498C36B8315F3.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.SpatialTracking.ref.dll_1552DC8EFC971715.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm

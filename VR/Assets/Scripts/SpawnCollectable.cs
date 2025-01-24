@@ -4,34 +4,65 @@ using UnityEngine;
 
 public class SpawnCollectable : MonoBehaviour
 {
+
+    [SerializeField]
+    // List of all the possible position to spawn a collectable
+    private GameObject[] spawnPointsArray;
+
+    [SerializeField]
+    // List of all the collectables
+    private GameObject[] collectablesArray;
+
+    [SerializeField]
+    // Reference of the player
+    private GameObject player;
+
+    // Bool to Check if the collectable as been positionated
+    private bool collectablePositionated;
+
+    // Random integer to casualy select a position
+    private int randomInt;
+
     // Start is called before the first frame update
-    [SerializeField]
-    private GameObject[] SpawnPointsArray;
-    [SerializeField]
-    private GameObject[] CollectablesArray;
-    private bool CollectablePossitionated = false;
     void Start()
     {
-        AudioScript.Instance.StartMusic();
-        for (int i = 0; i < CollectablesArray.Length; i++)
+        collectablePositionated = false;
+
+        // We generate a random int from 0 to the size of the SpawnPositionList 
+        randomInt = Random.Range(0, spawnPointsArray.Length);
+
+        // For the player we select a random Position to spawn it
+        player.transform.position = spawnPointsArray[randomInt].transform.position;
+
+        // We set the position to null so we won't get it again
+        spawnPointsArray[randomInt] = null;
+
+        // Foreach collectable in the list we search a random position to spawn it
+        for (int i = 0; i < collectablesArray.Length; i++)
         {
-            do {
-                int RandomInt = Random.Range(0, SpawnPointsArray.Length);
+            // Check if the collectable has been positionated
+            do
+            {
+                // We generate a random int from 0 to the size of the SpawnPositionList 
+                randomInt = Random.Range(0, spawnPointsArray.Length);
 
-                if (SpawnPointsArray[RandomInt] != null)
+                // Check if the Random Position isn't null
+                if (spawnPointsArray[randomInt] != null)
                 {
-                    CollectablesArray[i].transform.position = SpawnPointsArray[RandomInt].transform.position;
-                    SpawnPointsArray[RandomInt] = null;
-                    CollectablePossitionated = true;
-                }
-            } while (!CollectablePossitionated);
-            CollectablePossitionated = false ;
-        }
-    }
+                    // Set the collectable position to the Random spawn position
+                    collectablesArray[i].transform.position = spawnPointsArray[randomInt].transform.position;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+                    // Set random position to null
+                    spawnPointsArray[randomInt] = null;
+
+                    // Set the bool to true so we can bypass the while
+                    collectablePositionated = true;
+                }
+
+            } while (!collectablePositionated);
+
+            // Set the bool to false
+            collectablePositionated = false;
+        }
     }
 }

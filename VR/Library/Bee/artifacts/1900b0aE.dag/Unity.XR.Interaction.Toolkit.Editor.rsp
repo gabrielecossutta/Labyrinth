@@ -118,6 +118,8 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:AR_FOUNDATION_5_0_OR_NEWER
+-define:AR_FOUNDATION_PRESENT
 -define:XR_LEGACY_INPUT_HELPERS_2_1_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -349,6 +351,7 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.ARFoundation.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"

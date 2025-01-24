@@ -365,6 +365,7 @@
 "Assets/Samples/XR Interaction Toolkit/3.0.3/Starter Assets/Scripts/ObjectSpawner.cs"
 "Assets/Samples/XR Interaction Toolkit/3.0.3/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs"
 "Assets/Samples/XR Interaction Toolkit/3.0.3/Starter Assets/Scripts/XRPokeFollowAffordance.cs"
+"Assets/Samples/XR Interaction Toolkit/3.0.3/Starter Assets/XRI Default Input Actions.cs"
 -langversion:9.0
 /deterministic
 /optimize+

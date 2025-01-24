@@ -421,6 +421,7 @@
 "Assets/Scripts/PCControls.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/SpawnCollectable.cs"
+"Assets/Scripts/WorldSpaceUIScript.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
 "Assets/VRTemplateAssets/Scripts/BooleanToggleVisualsController.cs"

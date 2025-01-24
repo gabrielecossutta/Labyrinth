@@ -8,13 +8,18 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
     protected virtual void Awake()
     {
+        //Check if there are other istance of the Script and delete them
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject); // Evita duplicati
+            // Destroy the duplicate
+            Destroy(gameObject);
             return;
         }
 
+        // Assign the istance of the Genetic type 
         Instance = this as T;
-        DontDestroyOnLoad(gameObject); // Persistente tra scene
+
+        // Don't destroy the object when changing scene
+        DontDestroyOnLoad(gameObject);
     }
 }
